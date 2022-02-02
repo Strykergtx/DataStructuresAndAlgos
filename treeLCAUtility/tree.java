@@ -42,7 +42,7 @@ public class tree {
     public static void printList()
     {
         for(Ancestor t:list) {
-            System.out.println("Node = "+t.node.data+" , at distance"+t.distance+" from target");
+            System.out.println("Node = "+t.node.data+" , at distance "+t.distance+" from target");
         }
     }
 
