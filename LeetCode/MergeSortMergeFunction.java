@@ -1,9 +1,9 @@
 package LeetCode;
 
+
+//https://leetcode.com/problems/merge-sorted-array/
 public class MergeSortMergeFunction {
 
-
-        //https://leetcode.com/problems/merge-sorted-array/
         //2 pointer technique
         public void merge(int[] nums1, int m, int[] nums2, int n) {
 

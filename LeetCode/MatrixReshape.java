@@ -3,9 +3,9 @@ package LeetCode;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://leetcode.com/problems/reshape-the-matrix/
 public class MatrixReshape {
 
-    //https://leetcode.com/problems/reshape-the-matrix/
     //slower, extract separately then put into new matrix
     public int[][] matrixReshape(int[][] mat, int r, int c) {
 

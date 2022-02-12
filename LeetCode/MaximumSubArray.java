@@ -1,7 +1,8 @@
 package LeetCode;
 
+//https://leetcode.com/problems/maximum-subarray/
 public class MaximumSubArray {
-       //https://leetcode.com/problems/maximum-subarray/
+
        //Normal Kadane's algorithm
        //Edge case -[-2,-1], [-1], [-1,-2], [1,-2,-3,4,-1,4,6,-8,-3]
         public int maxSubArray(int[] nums) {

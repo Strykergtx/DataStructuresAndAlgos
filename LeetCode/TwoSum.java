@@ -3,9 +3,9 @@ package LeetCode;
 import java.util.HashMap;
 import java.util.Map;
 
+//https://leetcode.com/problems/two-sum/
 public class TwoSum {
 
-         //https://leetcode.com/problems/two-sum/
         //O(n) solution
         public int[] twoSum(int[] nums, int target) {
 

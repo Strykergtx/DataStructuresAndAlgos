@@ -50,7 +50,7 @@
       <module name="DataStructuresAndAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PlayingWithStringsAndChars.*" />
+          <option name="PATTERN" value="LeetCode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayingWithStringsAndChars.test" />
-      <module name="JavaStuff" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedList.test" />
+      <module name="DataStructuresAndAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PlayingWithStringsAndChars.*" />
+          <option name="PATTERN" value="LeetCode.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

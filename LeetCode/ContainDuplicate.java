@@ -3,8 +3,9 @@ package LeetCode;
 import java.util.HashSet;
 import java.util.Set;
 
+//https://leetcode.com/problems/contains-duplicate/
 public class ContainDuplicate {
-        //https://leetcode.com/problems/contains-duplicate/
+
         //store in hashset check if it exists
         public boolean containsDuplicate(int[] nums) {
             Set<Integer> ht = new HashSet<>();

@@ -1,9 +1,11 @@
 package LeetCode;
 
+
+//https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 public class BuyAndSell {
 
-    //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
     //normal (O(N^2)) --too long
+    //Successive comparison and maintenance of Min Buy and Max Sell values
     public int maxProfit(int[] prices) {
 
         int maxProfit = 0;

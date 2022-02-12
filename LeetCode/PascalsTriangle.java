@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//https://leetcode.com/problems/pascals-triangle/
 public class PascalsTriangle {
 
-    //https://leetcode.com/problems/pascals-triangle/
+    //Using jagged array (2d)
     public static List<List<Integer>> generate(int numRows) {
 
         List<List<Integer>>  out = new ArrayList<>();
@@ -56,6 +57,23 @@ public class PascalsTriangle {
 
         return out;
 
+    }
+
+    //short solution
+    public List<List<Integer>> generate2(int numRows) {
+        List<List<Integer>> ans = new ArrayList<>();
+        for( int i = 0; i< numRows; i++) {
+            List<Integer> list1 = new ArrayList<>();
+            list1.add(1);
+            for(int j = 0; j < i-1; j++) {
+                list1.add(ans.get(i-1).get(j) + ans.get(i-1).get(j+1));
+            }
+            if(i > 0) {
+                list1.add(1);
+            }
+            ans.add(list1);
+        }
+        return ans;
     }
 
     public static void main(String args[])

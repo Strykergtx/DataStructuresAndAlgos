@@ -2,8 +2,9 @@ package LeetCode;
 
 import java.util.*;
 
+//https://leetcode.com/problems/intersection-of-two-arrays-ii/
 public class ArrayIntersection {
-    //https://leetcode.com/problems/intersection-of-two-arrays-ii/
+
     //BRUTE FORCE
     public int[] intersect(int[] nums1, int[] nums2) {
 
@@ -51,10 +52,6 @@ public class ArrayIntersection {
 
         for(int j = 0;j<nums2.length;j++)
         {
-            // if(map.containsKey(nums2[j]))
-            //     map.add(nums2[j],(map.get(nums2[j])+1));
-            // else
-            //     map.add(nums2[j],1);
 
             if(map.containsKey(nums2[j]) && (map.get(nums2[j])>0) )
             {

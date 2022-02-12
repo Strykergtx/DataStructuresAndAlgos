@@ -14,6 +14,6 @@ public class Edge {
     @Override
     public String toString()
     {
-        return (" Edge to vertex :"+toVertexId+" with weight"+weight);
+        return (" Edge to vertex :"+toVertexId+" with weight"+weight +", ");
     }
 }
