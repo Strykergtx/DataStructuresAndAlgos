@@ -5,7 +5,7 @@ import java.util.Stack;
 
 
 //https://leetcode.com/problems/binary-tree-preorder-traversal/
-public class TraversalRecursionPreOrder {
+public class TraversalPreOrder {
 
     //Recursive solution
     public void preorder(TreeNode node, List<Integer> l)
@@ -37,7 +37,6 @@ public class TraversalRecursionPreOrder {
 
         TreeNode curr = null;
         stack.push(root);
-
 
         while(!stack.isEmpty())
         {

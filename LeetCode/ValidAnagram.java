@@ -46,7 +46,7 @@ public class ValidAnagram {
                     {
                         map.put(c, map.get(c)-1);
                     } else {
-                        return false;  //the original count before decreasing must be greater than 0, then only we can decrease it, if its already 0, we have
+                        return false;  //the original count before decreasing must be greater than 0, only then we can decrease it, if its already 0, we have
                                        //extra character count in second string
                     }
                 }
@@ -69,6 +69,8 @@ public class ValidAnagram {
          return (Arrays.equals(sarr,tarr));
 
      }
+
+     //SOLUTION WITH SINGLE ASCII INDEXED OCCURRENCE ARRAY
 
 
 

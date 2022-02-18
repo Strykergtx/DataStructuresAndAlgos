@@ -44,13 +44,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaStuff" />
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.InorderTraversal">
+    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Tree.InorderTraversal" />
+      <module name="DataStructuresAndAlgos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.PascalsTriangle" />
       <module name="DataStructuresAndAlgos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LinkedList.*" />
+          <option name="PATTERN" value="PlayingWithStringsAndChars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedList.test" />
-      <module name="DataStructuresAndAlgos" />
+      <option name="MAIN_CLASS_NAME" value="PlayingWithStringsAndChars.test" />
+      <module name="JavaStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LinkedList.*" />
+          <option name="PATTERN" value="PlayingWithStringsAndChars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InorderTraversal" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.tree" />
