@@ -7,19 +7,19 @@ public class MaximumSubArray {
        //Edge case -[-2,-1], [-1], [-1,-2], [1,-2,-3,4,-1,4,6,-8,-3]
         public int maxSubArray(int[] nums) {
 
-            int max =-10000;
-            int currentMax =0;
+            int max = -10000;
+            int sum = 0;
 
             for(int i = 0;i<(nums.length);i++)
             {
 
-                currentMax=currentMax+ nums[i];
+                sum = sum + nums[i];
 
-                if(max<currentMax)
-                    max = currentMax;
+                if(max < sum)
+                    max = sum;
 
-                if(currentMax<=0)
-                    currentMax = 0;
+                if(sum <= 0)
+                    sum = 0;
 
             }
 
